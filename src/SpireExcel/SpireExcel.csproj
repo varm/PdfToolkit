@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Spire.License">
+      <HintPath>Lib\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf">
+      <HintPath>Lib\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.XLS">
+      <HintPath>Lib\Spire.XLS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
